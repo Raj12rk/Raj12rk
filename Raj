@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body><h1>DY PATIL FROM</h1>
+First name<input type="text" value="raj"><br>
+Middle name<input type="text" value="Ashok "><br>
+Last name<input type="text" value="More"><br><br>
+Courses 
+<select>  
+<option value="select">select</option>  
+<option value="Bsc it">Bsc it</option>  
+<option value="BBA">BBA</option>  
+<option value="BCA">BCA</option>  
+<option value="Bsc cs">Bsc cs</option> 
+</select><br><br>
+birth date <input type="date" name="DOB" id="DOB" required ><br><br>
+<label>   
+Gender :  
+</label><br> 
+  <input type="radio" id="male" name="a1" value="male">
+  <label for="male">male</label><br>
+<input type="radio" id="female" name="a1"  value="female">
+  <label for="female">female</label><br>
+<input type="radio" id="other" name="a1" value="other">
+  <label for="other">other</label><br>
+<br><br>
+Phone number 
+<input type="text" name="country code"  value="+91" size="2">   
+<input type="text" name="phone" size="10"> <br>
+<br>
+Address  
+<br>  
+<textarea cols="80" rows="5" value="address">  
+</textarea>  
+<br> 
+Email:  
+<input type="email" id="email" name="email"> <br>   
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+Re-type password:  
+<input type="Password" id="repass" name="repass"> <br> <br>  
+<input type="button" value="Submit"><br>
+<input type="button" value="clear">
